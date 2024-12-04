@@ -34,7 +34,7 @@ class OS{
 		
 	}
 }
-class Agregationcomposition {
+class mobile{
 	OS os = new OS("android",512);
 	void hasA(charger c) {
 		System.out.println(c.getBrand());
@@ -44,7 +44,7 @@ class Agregationcomposition {
 //public class Mobile2{
 	public static void main(String[] args) {
 		charger c = new charger("vivo",24.5f);
-		Agregationcomposition m = new Agregationcomposition();
+	mobile m = new mobile();
 		System.out.println(m.os.getName());
 		System.out.println(m.os.getSize());
 		m.hasA(c);
