@@ -1,7 +1,7 @@
 package inheritance;
 
 
-	// Parent Class
+	/
 	class Animal {
 	    void eat() {
 	        System.out.println("This animal eats food.");
@@ -12,7 +12,7 @@ package inheritance;
 	    }
 	}
 
-	// Single Inheritance: Dog inherits from Animal
+	
 	class Dog extends Animal{
 		@Override
 		void eat() {
@@ -24,7 +24,7 @@ package inheritance;
 	    }
 	}
 
-	// Multilevel Inheritance: Puppy inherits from Dog
+	
 	class Puppy extends Dog {
 		@Override
 		void eat() {
@@ -36,7 +36,7 @@ package inheritance;
 	    }
 	}
 
-	// Hierarchical Inheritance: Cat inherits from Animal
+	
 	class Cat extends Animal {
 		@Override
 		void eat() {
