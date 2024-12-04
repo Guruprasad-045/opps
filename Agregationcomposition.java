@@ -4,7 +4,7 @@ class OS{
 	private String name;
 	private int size;
 	public OS(String name, int size) {
-		super();
+		
 		this.name = name;
 		this.size = size;
 	}
@@ -20,7 +20,7 @@ class OS{
 		private String brand;
 		private float voltage;
 		public charger(String brand, float voltage) {
-			super();
+			
 			this.brand = brand;
 			this.voltage = voltage;
 		
