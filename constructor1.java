@@ -18,15 +18,7 @@ class constructor1 {
 	public long getNum() {
 		return num;
 	}
-	public void setId(int id) {
-		this.id = id;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public void setNum(long num) {
-		this.num = num;
-	}
+
 	public static void main(String[] args) {
 		constructor1 c=new constructor1(1,"guru",987766666);
 		System.out.println(c.getId());
